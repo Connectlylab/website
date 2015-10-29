@@ -1,0 +1,24 @@
+.embedly-responsive-outer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.embedly-responsive-wrapper {
+    max-width:580px;
+    margin:0 auto;
+}
+.embedly-responsive-object {
+    position: relative;
+    padding-bottom: 67.5%;
+    height: 0;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.embedly-responsive-object iframe,
+.embedly-responsive-object object,
+.embedly-responsive-object embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
